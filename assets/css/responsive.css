@@ -1,0 +1,381 @@
+@media (min-width:768px) and (max-width:992px) {
+    .menu-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .menu-bar a {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .quick-links {
+        position: absolute;
+        content: "";
+        top: -6.5rem;
+        right: 0;
+        text-align: center;
+        width: 100%;
+        background: #124e66;
+        display: none;
+        z-index: -1;
+        transition: all 0.2s linear;
+    }
+
+    .nav-bar {
+        padding: 1rem 1.5rem;
+    }
+
+    .quick-links .user-acc {
+        display: none;
+    }
+
+    .quick-links ul {
+        display: block;
+    }
+
+    .quick-links ul li a {
+        font-size: 1.5rem;
+    }
+
+    .quick-links ul li {
+        padding: 0.5rem 1rem;
+    }
+
+    .xmark-icon {
+        display: block;
+        text-align: right;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .banner-slide {
+        padding-top: 5.7rem;
+    }
+
+    .appointment,
+    .training-space {
+        padding-top: 7rem;
+    }
+
+    .about-cont,
+    .training {
+        display: block;
+    }
+
+    .bg-col {
+        text-align: center;
+    }
+
+    .bg-col::before {
+        width: 70%;
+        top: 20px;
+        right: 75px;
+    }
+
+    .about-cont img {
+        width: 450px;
+    }
+
+    .anchor-btn {
+        margin-bottom: 1.5rem;
+    }
+
+    .all-services {
+        grid-template-columns: auto auto;
+        gap: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .service-card {
+        width: 360px;
+    }
+
+    .all-services h2 {
+        font-size: 20px;
+    }
+
+    .certificate-img {
+        text-align: center;
+    }
+
+    .certificate {
+        padding-bottom: 1rem;
+    }
+
+    .inner-footer ul li a {
+        font-size: 12px;
+    }
+
+    footer .inner-footer {
+        gap: 1rem;
+    }
+
+    .inner-footer h2 {
+        font-size: 16px;
+    }
+
+    .inner-footer .social-media-footer ul li i {
+        font-size: 1rem;
+    }
+
+    .connect-footer a {
+        font-size: 1rem;
+    }
+
+    .about-ceo,
+    .about-company {
+        display: block;
+    }
+
+    .about-ceo img {
+        padding-bottom: 1rem;
+    }
+
+    .spark-fam {
+        gap: 2rem;
+    }
+
+    .banner-slide img {
+        width: 100%;
+    }
+
+    .ceo-cont {
+        text-align: center;
+    }
+
+    .about-company .comp-cont {
+        text-align: center;
+    }
+
+    .test-swipe .swiper {
+        height: 600px;
+    }
+
+    .pro-service {
+        display: block;
+    }
+
+    h1,
+    .lr-head {
+        text-align: center;
+    }
+
+    .top-head span>img {
+        width: 35px;
+    }
+
+    .s-img1,
+    .s-img2 {
+        text-align: center;
+    }
+
+    .hidden-head {
+        display: block;
+    }
+
+    .show-head {
+        display: none;
+    }
+
+    .services-space {
+        max-width: 95%;
+    }
+
+    .contact-form {
+        padding: 1rem;
+    }
+}
+
+
+
+@media (max-width:599px) {
+    .menu-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .menu-bar a {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .quick-links {
+        position: absolute;
+        content: "";
+        top: -6.5rem;
+        right: 0;
+        text-align: center;
+        width: 100%;
+        background: #124e66;
+        display: none;
+        z-index: -1;
+        transition: all 0.2s linear;
+    }
+
+    .nav-bar {
+        padding: 1rem 1.5rem;
+    }
+
+    .quick-links .user-acc {
+        display: none;
+    }
+
+    .quick-links ul {
+        display: block;
+    }
+
+    .quick-links ul li a {
+        font-size: 1.5rem;
+    }
+
+    .quick-links ul li {
+        padding: 0.5rem 1rem;
+    }
+
+    .xmark-icon {
+        display: block;
+        text-align: right;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .all-services {
+        grid-template-columns: auto;
+        padding: 1rem 0;
+    }
+
+    .training,
+    .about-cont,
+    footer .inner-footer {
+        display: block;
+    }
+
+    .banner-slide {
+        padding-top: 5.7rem;
+    }
+
+    .training img,
+    .about-cont img {
+        width: 320px;
+    }
+
+    .service-card {
+        width: 360px;
+    }
+
+    .top-head span>img {
+        width: 30px;
+    }
+
+    h1,
+    .lr-head {
+        font-size: 1.6rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        /* text-indent: -2.2rem;
+        padding-left: 22px; */
+    }
+
+    .bg-col::before {
+        right: -6px;
+    }
+
+    .anchor-btn {
+        margin-bottom: 1.3rem;
+    }
+
+    .hidden-head {
+        display: block;
+    }
+
+    .show-head h1,
+    .show-head img {
+        display: none;
+    }
+
+    .training .certificate {
+        padding: 0.5rem 0 1rem 0;
+    }
+
+    .quick-links-footer,
+    .services-footer,
+    .locations {
+        padding-bottom: 1rem;
+    }
+
+    .gallery-swiper .swiper-wrapper {
+        width: 85% !important;
+    }
+
+    .gallery-swiper .swiper-slide {
+        width: 290px;
+    }
+
+    .about-ceo {
+        display: block;
+    }
+
+    .about-company {
+        display: block;
+    }
+
+    .about-salon img {
+        width: 325px;
+    }
+
+    .about-ceo img {
+        width: 320px;
+        padding-bottom: 10px;
+    }
+
+    .banner-slide img {
+        width: 100%;
+    }
+
+    .test-swipe .swiper {
+        height: 570px;
+    }
+
+    .pro-service {
+        display: block;
+    }
+
+    .services-space {
+        max-width: 100%;
+    }
+
+    .pro-service img {
+        width: 100%;
+    }
+
+    .appointment,
+    .training-space {
+        padding-top: 7rem;
+    }
+
+    .input-fields,
+    .training-program .input-fields {
+        grid-template-columns: auto;
+    }
+
+    .contact-form {
+        padding: 1.5rem;
+    }
+
+    .pro-service {
+        scroll-margin-top: 130px;
+    }
+
+    .spark-fam {
+        gap: 1.2rem;
+    }
+}
