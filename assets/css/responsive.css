@@ -220,7 +220,7 @@
     }
 
     .nav-bar {
-        padding: 1rem 1.5rem;
+        padding: 0.2em 1.5rem;
     }
 
     .quick-links .user-acc {
@@ -260,7 +260,7 @@
     }
 
     .banner-slide {
-        padding-top: 5.7rem;
+        padding-top: 4.2rem;
     }
 
     .training img,
@@ -269,7 +269,7 @@
     }
 
     .service-card {
-        width: 360px;
+        width: 340px;
     }
 
     .top-head span>img {
@@ -342,7 +342,7 @@
     }
 
     .test-swipe .swiper {
-        height: 570px;
+        height: 605px;
     }
 
     .pro-service {
