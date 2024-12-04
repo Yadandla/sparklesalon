@@ -121,8 +121,13 @@ p {
 .main-nav .social-media ul li a i {
     font-size: 1.3rem;
     color: var(--color3);
+    transition: all 0.3s linear;
 }
 
+.main-nav .social-media ul li a:hover i {
+    color: var(--color2);
+    transform: scale(1.1);
+}
 
 .drop-down {
     position: absolute;
