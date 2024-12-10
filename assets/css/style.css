@@ -317,6 +317,7 @@ footer .social-media-footer .lord-footer .connect-footer {
     background-color: #ffffff;
     box-shadow: -10px 9px 20px #3e362ebd;
     width: 425px;
+    width: 370px;
     border-radius: 1rem;
 }
 
@@ -344,6 +345,7 @@ footer .social-media-footer .lord-footer .connect-footer {
 .all-services h2 {
     padding: 0 0 1rem 0;
     color: #d3d9d4;
+    font-size: 1.3rem;
 }
 
 .all-services .card-cont {
@@ -595,7 +597,7 @@ footer .social-media-footer .lord-footer .connect-footer {
 
 .test-swipe .swiper {
     width: 100%;
-    height: 520px;
+    height: 525px;
     padding: 1rem 0.5rem;
 }
 

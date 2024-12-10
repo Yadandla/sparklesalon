@@ -1,3 +1,9 @@
+@media (min-width:1200px) and (max-width:1300px) {
+    .test-swipe .swiper {
+        height: 585px;
+    }
+}
+
 @media (min-width:768px) and (max-width:992px) {
     .menu-bar {
         display: flex;
@@ -188,6 +194,10 @@
 
     .contact-form {
         padding: 1rem;
+    }
+
+    .input-fields {
+        grid-template-columns: auto auto;
     }
 }
 
