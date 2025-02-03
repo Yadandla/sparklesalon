@@ -27,10 +27,10 @@
         <div class="main-nav">
             <div class="cont-icon">
                 <lord-icon src="https://cdn.lordicon.com/tftaqjwp.json" trigger="loop" colors="primary:#124e66"
-                    style="width:25px;height:25px" class="lord-icon"></lord-icon> <a>9567845698</a>
+                    style="width:25px;height:25px" class="lord-icon"></lord-icon> <a>+91 9567845698</a>
                 <lord-icon src="https://cdn.lordicon.com/rhvddzym.json" trigger="loop" colors="primary:#124e66"
                     style="width:35px;height:35px" class="lord-icon">
-                </lord-icon> <a>info@sparkle.com</a>
+                </lord-icon> <a>beauty@sparkle.com</a>
             </div>
             <div class="cont-icon social-media">
                 <ul>
@@ -42,9 +42,13 @@
             </div>
         </div>
         <nav class="nav-bar">
-            <div>
-                <a href="index.html" class="logo">Sparkle</a>
-                <!-- Everlasting Bliss -->
+            <div class="logo">
+                <span class="one"></span>
+                <span class="two"></span>
+                <a href="index.html">Sparkle</a>
+                <span class="three"></span>
+                <span class="four">Beauty Salon</span>
+                <span class="five"></span>
             </div>
             <div class="quick-links">
                 <ul>
@@ -350,26 +354,24 @@
                         <div class="connect-footer">
                             <lord-icon src="https://cdn.lordicon.com/tftaqjwp.json" trigger="loop"
                                 colors="primary:#124e66" style="width:35px;height:25px" class="lord-icon"></lord-icon>
-                            <a>9567845698</a>
+                            <a>+91 9567845698</a>
                         </div>
                         <div class="connect-footer">
                             <lord-icon src="https://cdn.lordicon.com/rhvddzym.json" trigger="loop"
                                 colors="primary:#124e66" style="width:35px;height:35px" class="lord-icon">
-                            </lord-icon> <a>info@sparkle.com</a>
+                            </lord-icon> <a>beauty@sparkle.com</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="copyright">
-            <p>&copy; 2024 Sparkle. All Rights Reserved | Developed by Sparkle Team</p>
+            <p>&copy; 2024 Sparkle. All Rights Reserved</p>
         </div>
         </div>
     </footer>
     <!-- Footer Ends -->
 
-    <!-- js -->
-    <script src="assets/js/script.js"></script>
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- lordicon -->
@@ -412,26 +414,9 @@
             })
 
         });
-
-        $('.xmark-icon').hide();
-        $('.menu-bar .menu-tabs').on('click', function () {
-            $('.quick-links').show();
-            $('.quick-links').animate({ top: '5.5rem' });
-            $('.menu-tabs').hide();
-            $('.xmark-icon').show();
-        })
-        $('.xmark-icon').on('click', function () {
-            $('.quick-links').hide();
-            $('.quick-links').animate({ top: '-6.5rem' });
-            $('.menu-tabs').show();
-            $('.xmark-icon').hide();
-        })
-
-        $('.quick-links li a').click(function () {
-            $('.quick-links .tabs').removeClass("active ");
-            $(this).addClass("active ");
-        });
     </script>
+    <!-- js -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

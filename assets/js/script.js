@@ -1,14 +1,7 @@
-$('.menu-bar a').on('click', function () {
-    $('.quick-links').show();
-})
-$('.xmark-icon').on('click', function () {
-    $('.quick-links').hide();
-})
-
 $('.xmark-icon').hide();
 $('.menu-bar .menu-tabs').on('click', function () {
     $('.quick-links').show();
-    $('.quick-links').animate({ top: '5.5rem' });
+    $('.quick-links').animate({ top: '4.5rem' });
     $('.menu-tabs').hide();
     $('.xmark-icon').show();
 })

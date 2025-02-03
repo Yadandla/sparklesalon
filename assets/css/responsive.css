@@ -203,7 +203,7 @@
 
 
 
-@media (max-width:599px) {
+@media (max-width:690px) {
     .menu-bar {
         display: flex;
         justify-content: center;
@@ -212,7 +212,7 @@
     }
 
     .menu-bar a {
-        font-size: 25px;
+        font-size: 30px;
         color: #fff;
     }
 
@@ -230,7 +230,7 @@
     }
 
     .nav-bar {
-        padding: 0.2em 1.5rem;
+        padding: 0.5em 1rem;
     }
 
     .quick-links .user-acc {
@@ -270,16 +270,16 @@
     }
 
     .banner-slide {
-        padding-top: 4.2rem;
+        padding-top: 4.7rem;
     }
 
     .training img,
     .about-cont img {
-        width: 320px;
+        width: 530px;
     }
 
     .service-card {
-        width: 340px;
+        width: 500px;
     }
 
     .top-head span>img {
@@ -387,5 +387,17 @@
 
     .spark-fam {
         gap: 1.2rem;
+    }
+}
+
+@media (max-width: 599px) {
+
+    .training img,
+    .about-cont img {
+        width: 320px;
+    }
+
+    .service-card {
+        width: 360px;
     }
 }
