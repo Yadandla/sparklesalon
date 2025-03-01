@@ -219,7 +219,7 @@ header {
 .banner-slide {
     width: 100%;
     height: 100%;
-    padding-top: 6.9rem;
+    padding-top: 7.2rem;
 }
 
 .tb-space {
@@ -837,4 +837,8 @@ footer .social-media-footer .lord-footer .connect-footer {
 
 .banner-img img {
     width: 100%;
+}
+
+.locations a {
+    cursor: default;
 }

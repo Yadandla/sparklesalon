@@ -1,6 +1,12 @@
-@media (min-width:1200px) and (max-width:1300px) {
+@media (min-width:1024px) and (max-width:1415px) {
     .test-swipe .swiper {
-        height: 585px;
+        height: 690px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+    .all-services {
+        grid-template-columns: auto auto;
     }
 }
 
@@ -78,9 +84,9 @@
     }
 
     .bg-col::before {
-        width: 70%;
+        width: 65%;
         top: 20px;
-        right: 75px;
+        right: 87px;
     }
 
     .about-cont img {
@@ -203,7 +209,7 @@
 
 
 
-@media (max-width:690px) {
+@media (max-width:768px) {
     .menu-bar {
         display: flex;
         justify-content: center;
@@ -259,7 +265,7 @@
     }
 
     .all-services {
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
         padding: 1rem 0;
     }
 
@@ -270,16 +276,16 @@
     }
 
     .banner-slide {
-        padding-top: 4.7rem;
+        padding-top: 4.8rem;
     }
 
     .training img,
     .about-cont img {
-        width: 530px;
+        width: 415px;
     }
 
     .service-card {
-        width: 500px;
+        width: 360px;
     }
 
     .top-head span>img {
@@ -296,7 +302,9 @@
     }
 
     .bg-col::before {
-        right: -6px;
+        width: 65%;
+        top: 20px;
+        right: 90px;
     }
 
     .anchor-btn {
@@ -390,7 +398,7 @@
     }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 400px) {
 
     .training img,
     .about-cont img {
