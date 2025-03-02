@@ -2,11 +2,11 @@ $('.xmark-icon').hide();
 $('.menu-bar .menu-tabs').on('click', function () {
     $('.quick-links').show();
     // $('.quick-links').animate({ top: '4.5rem' });
-    if ($(window).width() > 768) {
-        $('.quick-links').animate({ top: '5.7rem' });
-    }
     if ($(window).width() <= 768) {
         $('.quick-links').animate({ top: '4.7rem' });
+    }
+    else if ($(window).width() > 768) {
+        $('.quick-links').animate({ top: '5.7rem' });
     }
     $('.menu-tabs').hide();
     $('.xmark-icon').show();
