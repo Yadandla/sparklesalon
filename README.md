@@ -2,8 +2,7 @@
 
 Sparkle Salon which provides door step service and all other beauty services built with HTML, CSS and JavaScript. It's a static website.
 
-![Save Notes Screenshot](https://via.placeholder.com/800x400?text=Save+Notes+Screenshot)  
-_(Replace with an actual screenshot of your app)_
+![Image](https://github.com/user-attachments/assets/bbd4779e-672d-4b16-8291-98c85b1da7a9)
 
 ## Tech Stack 🛠️
 
