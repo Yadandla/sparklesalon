@@ -7,6 +7,3 @@ Sparkle Salon which provides door step service and all other beauty services bui
 - **Frontend**: HTML, CSS and JavaScript
 - **Deployment**: GitHub pages
 
-## Live Demo 🌐
-
-👉 [https://yadandla.github.io/sparklesalon/](https://yadandla.github.io/sparklesalon/)
