@@ -408,4 +408,8 @@
     .service-card {
         width: 360px;
     }
+
+    .all-services {
+        grid-template-columns: auto !important;
+    }
 }
